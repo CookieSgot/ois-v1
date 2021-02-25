@@ -4,7 +4,10 @@ public class Gravitacija {
      public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        int visina = sc.nextInt();
+        double visina = sc.nextInt();
+
+        System.out.println(visina);
+        System.out.println(gravitacija(visina));
         
     } 
     public static double gravitacija(double visina) {
