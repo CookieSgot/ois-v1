@@ -9,10 +9,10 @@ public class Gravitacija {
 
     }
     public static double gravitacija(double visina) {
-        double C = 6.674 * Math.pow(-11,10); 
-        double M = 5.972 * Math.pow(24,10);
-        double R = 6.371 * Math.pow(6,10);
+        double C = 6.674 * Math.pow(10,-11); 
+        double M = 5.972 * Math.pow(10,24);
+        double R = 6.371 * Math.pow(10,6);
 
-        return (C * M) / Math.pow(2,(R + visina));
+        return (C * M) / Math.pow((R + visina), 2);
     }
 }
